@@ -4,8 +4,8 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 let Mailer = require('./utils/mailer')
 // let Mongo = require('./Modules/MongoDB');
-// const PORT = 8080;
-const PORT = 5000;
+const PORT = 8080;
+// const PORT = 5000;
 
 // app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: false })); // Set extended to true
